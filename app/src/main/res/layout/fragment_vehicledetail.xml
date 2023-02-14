@@ -7,6 +7,7 @@
     tools:context=".VehicleDetailFragment">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardtop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_10sdp"
@@ -112,6 +113,19 @@
 
 
     </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btn_estimate"
+        style="@style/CustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/estimate_carbon_emmisions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardtop" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

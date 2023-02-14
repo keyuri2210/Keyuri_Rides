@@ -11,4 +11,5 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="enter_value">Enter number of vehicle</string>
     <string name="ok">OK</string>
+    <string name="estimate_carbon_emmisions">Estimate Carbon Emmisions</string>
 </resources>

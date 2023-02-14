@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.rides"
-        minSdk 24
+        minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -52,4 +52,5 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.6.0'
     //sdp
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 }
